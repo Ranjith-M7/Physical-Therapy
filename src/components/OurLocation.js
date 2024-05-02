@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section1 = () => {
+const OurLocation = () => {
   return (
     <div className="block-quick-info-2">
     <div className="container">
@@ -54,4 +54,4 @@ const Section1 = () => {
   )
 }
 
-export default Section1
+export default OurLocation
