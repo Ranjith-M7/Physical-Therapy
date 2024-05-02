@@ -1,6 +1,5 @@
 
 import './App.css';
-import Section1 from './components/Section1';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SectionSix from './components/SectionSix'
@@ -18,6 +17,7 @@ import WeOffer from './components/WeOffer';
 import SpecialOffers from './components/SpecialOffers';
 import Customers from './components/Customers';
 import ChooseUs from './components/ChooseUs';
+import OurLocation from './components/OurLocation';
 /* import './assets/css/mediaelementplayer.css'
 import './assets/css/owl.carousel.min.css'
 import './assets/css/owl.theme.default.min.css' */
