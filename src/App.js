@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Section1 from './components/Section1';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import SectionSix from './components/SectionSix'
+import './assets/css/style.css'
+import './assets/css/style.css.map'
+import './assets/css/rangeslider.css'
+import './assets/css/aos.css'
+import './assets/css/bootstrap-datepicker.css'
+import './assets/css/bootstrap.min.css.map'
+import './assets/css/bootstrap.min.css'
+import './assets/css/magnific-popup.css'
+import About from './components/About';
+import Hero from './components/Hero';
+import WeOffer from './components/WeOffer';
+import SpecialOffers from './components/SpecialOffers';
+import Customers from './components/Customers';
+import ChooseUs from './components/ChooseUs';
+/* import './assets/css/mediaelementplayer.css'
+import './assets/css/owl.carousel.min.css'
+import './assets/css/owl.theme.default.min.css' */
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="site-wrap">
+     <Navbar/>
+     <Hero/>
+     <Section1/>
+     <WeOffer/>
+     <ChooseUs/>
+     <SpecialOffers/> 
+     <Customers/>
+     <SectionSix/>
+     <Footer/>
     </div>
   );
 }
